@@ -1,0 +1,19 @@
+{
+  "package_name": "ur_dashboard_msgs",
+  "non_idl_tuples": [
+    "/home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:msg/ProgramState.msg",
+    "/home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:msg/RobotMode.msg",
+    "/home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:msg/SafetyMode.msg",
+    "/home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/AddToLog.srv",
+    "/home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetLoadedProgram.srv",
+    "/home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetProgramState.srv",
+    "/home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetRobotMode.srv",
+    "/home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/GetSafetyMode.srv",
+    "/home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/IsProgramRunning.srv",
+    "/home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/IsProgramSaved.srv",
+    "/home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/Load.srv",
+    "/home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/Popup.srv",
+    "/home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:srv/RawRequest.srv",
+    "/home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs:action/SetMode.action"
+  ]
+}

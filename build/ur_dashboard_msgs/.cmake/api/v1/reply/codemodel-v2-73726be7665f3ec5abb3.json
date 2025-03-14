@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-52d9e26eacf6a59685de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "ur_dashboard_msgs__py",
+					"jsonFile" : "directory-ur_dashboard_msgs__py-676e2bdc5c3596d03de7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_dashboard_msgs/ur_dashboard_msgs__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ur_dashboard_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ur_dashboard_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ur_dashboard_msgs_egg-34c29d286105147a89df.json",
+					"name" : "ament_cmake_python_build_ur_dashboard_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ur_dashboard_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ur_dashboard_msgs-687da922662262da018b.json",
+					"name" : "ament_cmake_python_copy_ur_dashboard_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e6cc50c9cfb8009cf52f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_dashboard_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_dashboard_msgs-a8c535c5496899bcc08f.json",
+					"name" : "ur_dashboard_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_dashboard_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_dashboard_msgs__cpp-eda34af41f2ce0f31686.json",
+					"name" : "ur_dashboard_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ur_dashboard_msgs__py::@c0105a98bdfd676ff787",
+					"jsonFile" : "target-ur_dashboard_msgs__py-3606b5cb6fd6e76aabb6.json",
+					"name" : "ur_dashboard_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_dashboard_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_dashboard_msgs__rosidl_generator_c-4bc22da363047121cbae.json",
+					"name" : "ur_dashboard_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_dashboard_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_dashboard_msgs__rosidl_generator_py-34d4567b1c8bea4c0aa3.json",
+					"name" : "ur_dashboard_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_dashboard_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_dashboard_msgs__rosidl_typesupport_c-dfe2508dac05c37e67b2.json",
+					"name" : "ur_dashboard_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_dashboard_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_dashboard_msgs__rosidl_typesupport_c__pyext-74b418d22444d9356904.json",
+					"name" : "ur_dashboard_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_dashboard_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_dashboard_msgs__rosidl_typesupport_cpp-b6f24cba042cd48488be.json",
+					"name" : "ur_dashboard_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_dashboard_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_dashboard_msgs__rosidl_typesupport_fastrtps_c-87d9965aa3b4ffc47f45.json",
+					"name" : "ur_dashboard_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext-a9be989e3cd467a63f63.json",
+					"name" : "ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp-bce8ac87f063145e4f76.json",
+					"name" : "ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_dashboard_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_dashboard_msgs__rosidl_typesupport_introspection_c-2d0b081d87bc294734e7.json",
+					"name" : "ur_dashboard_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext-e4daf601512b90dbb615.json",
+					"name" : "ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_dashboard_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_dashboard_msgs__rosidl_typesupport_introspection_cpp-0ee02781bc4da4ad307a.json",
+					"name" : "ur_dashboard_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_dashboard_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_dashboard_msgs_uninstall-d0ce65548d820768a249.json",
+					"name" : "ur_dashboard_msgs_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_dashboard_msgs",
+		"source" : "/home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

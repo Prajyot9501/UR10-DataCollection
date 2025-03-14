@@ -1,0 +1,192 @@
+[0.011s] Invoking command in '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_controllers': CMAKE_PREFIX_PATH=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_dashboard_msgs:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_calibration:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_bringup:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector:/opt/ros/humble LD_LIBRARY_PATH=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_dashboard_msgs/lib:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/lib:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_INSTALL_PREFIX=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers
+[0.071s] -- The C compiler identification is GNU 11.4.0
+[0.133s] -- The CXX compiler identification is GNU 11.4.0
+[0.143s] -- Detecting C compiler ABI info
+[0.213s] -- Detecting C compiler ABI info - done
+[0.223s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.224s] -- Detecting C compile features
+[0.224s] -- Detecting C compile features - done
+[0.227s] -- Detecting CXX compiler ABI info
+[0.307s] -- Detecting CXX compiler ABI info - done
+[0.317s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.318s] -- Detecting CXX compile features
+[0.318s] -- Detecting CXX compile features - done
+[0.320s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.468s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.553s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.556s] -- Found controller_interface: 2.48.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.600s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.605s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.614s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.627s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.644s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.895s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.898s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.927s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.975s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.978s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.994s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.998s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.008s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.020s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.028s] -- Looking for pthread.h
+[1.100s] -- Looking for pthread.h - found
+[1.100s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.170s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.172s] -- Found Threads: TRUE  
+[1.241s] -- Found joint_trajectory_controller: 2.41.0 (/opt/ros/humble/share/joint_trajectory_controller/cmake)
+[1.331s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.343s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.352s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.353s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.353s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.429s] -- Found ur_dashboard_msgs: 2.5.2 (/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[1.452s] -- Found ur_msgs: 2.1.0 (/opt/ros/humble/share/ur_msgs/cmake)
+[1.495s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.497s] -- Found controller_manager: 2.48.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.532s] -- Found ros2_control_test_assets: 2.48.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[1.534s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.541s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.542s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.652s] -- Configuring done
+[1.758s] -- Generating done
+[1.778s] -- Build files have been written to: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_controllers
+[1.791s] Invoked command in '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_dashboard_msgs:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_calibration:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_bringup:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector:/opt/ros/humble LD_LIBRARY_PATH=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_dashboard_msgs/lib:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/lib:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_INSTALL_PREFIX=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers
+[1.793s] Invoking command in '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_controllers': CMAKE_PREFIX_PATH=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_dashboard_msgs:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_calibration:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_bringup:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector:/opt/ros/humble LD_LIBRARY_PATH=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_dashboard_msgs/lib:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/lib:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_controllers -- -j12 -l12
+[1.845s] [  3%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp /home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/ur_configuration_controller_parameters.yaml `[0m
+[1.845s] [  6%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp /home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller_parameters.yaml `[0m
+[1.846s] [  9%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp /home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/force_mode_controller_parameters.yaml `[0m
+[1.846s] [ 12%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[1.846s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.846s] [ 19%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp /home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/scaled_joint_trajectory_controller_parameters.yaml `[0m
+[1.846s] [ 22%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp /home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller_parameters.yaml `[0m
+[1.846s] [ 25%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp /home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/speed_scaling_state_broadcaster_parameters.yaml `[0m
+[1.846s] [ 29%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp /home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/passthrough_trajectory_controller_parameters.yaml `[0m
+[1.846s] [ 32%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[2.058s] [ 35%] [34m[1mCreating deprecated header file /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_controllers/include/scaled_joint_trajectory_controller_parameters.hpp[0m
+[2.064s] [ 38%] [34m[1mCreating deprecated header file /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_controllers/include/ur_configuration_controller_parameters.hpp[0m
+[2.102s] [ 41%] [34m[1mCreating deprecated header file /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_controllers/include/force_mode_controller_parameters.hpp[0m
+[2.103s] [ 45%] [34m[1mCreating deprecated header file /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_controllers/include/speed_scaling_state_broadcaster_parameters.hpp[0m
+[2.114s] [ 48%] [34m[1mCreating deprecated header file /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_controllers/include/gpio_controller_parameters.hpp[0m
+[2.114s] [ 48%] Built target scaled_joint_trajectory_controller_parameters
+[2.126s] [ 48%] Built target ur_configuration_controller_parameters
+[2.128s] [ 51%] [34m[1mCreating deprecated header file /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_controllers/include/freedrive_mode_controller_parameters.hpp[0m
+[2.148s] [ 51%] Built target speed_scaling_state_broadcaster_parameters
+[2.149s] [ 51%] Built target force_mode_controller_parameters
+[2.161s] [ 51%] Built target gpio_controller_parameters
+[2.165s] [ 54%] [34m[1mCreating deprecated header file /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_controllers/include/passthrough_trajectory_controller_parameters.hpp[0m
+[2.167s] [ 54%] Built target freedrive_mode_controller_parameters
+[2.206s] [ 54%] Built target passthrough_trajectory_controller_parameters
+[2.232s] [ 64%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/scaled_joint_trajectory_controller.cpp.o[0m
+[2.232s] [ 64%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/force_mode_controller.cpp.o[0m
+[2.232s] [ 64%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/freedrive_mode_controller.cpp.o[0m
+[2.232s] [ 67%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/speed_scaling_state_broadcaster.cpp.o[0m
+[2.233s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/passthrough_trajectory_controller.cpp.o[0m
+[2.233s] [ 74%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/gpio_controller.cpp.o[0m
+[2.233s] [ 77%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/ur_configuration_controller.cpp.o[0m
+[3.396s] [ 80%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[3.430s] [ 80%] Built target gmock_main
+[5.512s] [ 83%] [32m[1mLinking CXX static library libgmock.a[0m
+[5.644s] [ 83%] Built target gmock
+[12.085s] [ 87%] [32m[1mLinking CXX shared library libur_controllers.so[0m
+[13.482s] [ 87%] Built target ur_controllers
+[13.501s] [ 90%] [32mBuilding CXX object CMakeFiles/test_load_freedrive_mode_controller.dir/test/test_load_freedrive_mode_controller.cpp.o[0m
+[13.501s] [ 93%] [32mBuilding CXX object CMakeFiles/test_load_force_mode_controller.dir/test/test_load_force_mode_controller.cpp.o[0m
+[18.173s] [ 96%] [32m[1mLinking CXX executable test_load_freedrive_mode_controller[0m
+[18.259s] [100%] [32m[1mLinking CXX executable test_load_force_mode_controller[0m
+[18.600s] [100%] Built target test_load_freedrive_mode_controller
+[18.681s] [100%] Built target test_load_force_mode_controller
+[18.691s] Invoked command in '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_dashboard_msgs:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_calibration:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_bringup:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector:/opt/ros/humble LD_LIBRARY_PATH=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_dashboard_msgs/lib:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/lib:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_controllers -- -j12 -l12
+[18.693s] Invoking command in '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_controllers': CMAKE_PREFIX_PATH=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_dashboard_msgs:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_calibration:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_bringup:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector:/opt/ros/humble LD_LIBRARY_PATH=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_dashboard_msgs/lib:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/lib:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_controllers
+[18.700s] -- Install configuration: ""
+[18.700s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers
+[18.701s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[18.701s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[18.701s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[18.701s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[18.701s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[18.701s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[18.702s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[18.702s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers
+[18.702s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[18.702s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[18.702s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[18.702s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[18.702s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[18.702s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[18.702s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[18.703s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers
+[18.703s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[18.703s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[18.703s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[18.703s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[18.703s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[18.703s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[18.703s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[18.703s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers
+[18.703s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[18.703s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[18.703s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[18.703s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[18.703s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[18.704s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[18.704s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[18.704s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers
+[18.704s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[18.704s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[18.704s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[18.704s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[18.704s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[18.704s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[18.704s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[18.704s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers
+[18.704s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[18.704s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[18.705s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[18.705s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[18.705s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[18.705s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[18.705s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[18.705s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers
+[18.705s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[18.705s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[18.705s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[18.705s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[18.705s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[18.705s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[18.706s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[18.706s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[18.706s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/lib/libur_controllers.so
+[18.718s] -- Set runtime path of "/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/lib/libur_controllers.so" to ""
+[18.718s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include
+[18.718s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers
+[18.718s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/force_mode_controller.hpp
+[18.718s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+[18.718s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+[18.718s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp
+[18.719s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp
+[18.719s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+[18.719s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp
+[18.719s] -- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[18.719s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+[18.719s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+[18.719s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+[18.720s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+[18.720s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+[18.720s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+[18.720s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/share/ur_controllers/environment/path.sh
+[18.720s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/share/ur_controllers/environment/path.dsv
+[18.720s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/share/ur_controllers/local_setup.bash
+[18.720s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/share/ur_controllers/local_setup.sh
+[18.721s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/share/ur_controllers/local_setup.zsh
+[18.721s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/share/ur_controllers/local_setup.dsv
+[18.721s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/share/ur_controllers/package.dsv
+[18.721s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+[18.721s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+[18.721s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.722s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.722s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[18.722s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+[18.722s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+[18.722s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/share/ur_controllers/package.xml
+[18.725s] Invoked command in '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_dashboard_msgs:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_calibration:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_bringup:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector:/opt/ros/humble LD_LIBRARY_PATH=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_dashboard_msgs/lib:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/lib:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_controllers

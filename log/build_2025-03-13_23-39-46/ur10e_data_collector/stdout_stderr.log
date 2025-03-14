@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/ur10e_data_collector/ur10e_data_collector.egg-info
+writing ../../build/ur10e_data_collector/ur10e_data_collector.egg-info/PKG-INFO
+writing dependency_links to ../../build/ur10e_data_collector/ur10e_data_collector.egg-info/dependency_links.txt
+writing entry points to ../../build/ur10e_data_collector/ur10e_data_collector.egg-info/entry_points.txt
+writing requirements to ../../build/ur10e_data_collector/ur10e_data_collector.egg-info/requires.txt
+writing top-level names to ../../build/ur10e_data_collector/ur10e_data_collector.egg-info/top_level.txt
+writing manifest file '../../build/ur10e_data_collector/ur10e_data_collector.egg-info/SOURCES.txt'
+reading manifest file '../../build/ur10e_data_collector/ur10e_data_collector.egg-info/SOURCES.txt'
+writing manifest file '../../build/ur10e_data_collector/ur10e_data_collector.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur10e_data_collector/build
+creating /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur10e_data_collector/build/lib
+creating /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur10e_data_collector/build/lib/ur10e_data_collector
+copying ur10e_data_collector/data_collector.py -> /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur10e_data_collector/build/lib/ur10e_data_collector
+copying ur10e_data_collector/__init__.py -> /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur10e_data_collector/build/lib/ur10e_data_collector
+running install
+running install_lib
+creating /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector/lib/python3.10/site-packages/ur10e_data_collector
+copying /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur10e_data_collector/build/lib/ur10e_data_collector/data_collector.py -> /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector/lib/python3.10/site-packages/ur10e_data_collector
+copying /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur10e_data_collector/build/lib/ur10e_data_collector/__init__.py -> /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector/lib/python3.10/site-packages/ur10e_data_collector
+byte-compiling /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector/lib/python3.10/site-packages/ur10e_data_collector/data_collector.py to data_collector.cpython-310.pyc
+byte-compiling /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector/lib/python3.10/site-packages/ur10e_data_collector/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector/share/ur10e_data_collector/launch
+copying launch/ur10e_data_collection.launch.py -> /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector/share/ur10e_data_collector/launch
+running install_egg_info
+Copying ../../build/ur10e_data_collector/ur10e_data_collector.egg-info to /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector/lib/python3.10/site-packages/ur10e_data_collector-0.1.0-py3.10.egg-info
+running install_scripts
+Installing data_collector script to /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector/lib/ur10e_data_collector
+writing list of installed files to '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur10e_data_collector/install.log'

@@ -1,0 +1,77 @@
+[0.018s] Invoking command in '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector:/opt/ros/humble /usr/bin/cmake /home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_INSTALL_PREFIX=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config
+[0.319s] -- The C compiler identification is GNU 11.4.0
+[0.319s] -- The CXX compiler identification is GNU 11.4.0
+[0.321s] -- Detecting C compiler ABI info
+[0.321s] -- Detecting C compiler ABI info - done
+[0.321s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.321s] -- Detecting C compile features
+[0.321s] -- Detecting C compile features - done
+[0.321s] -- Detecting CXX compiler ABI info
+[0.322s] -- Detecting CXX compiler ABI info - done
+[0.322s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.322s] -- Detecting CXX compile features
+[0.322s] -- Detecting CXX compile features - done
+[0.322s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.469s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.694s] -- Configuring done
+[0.698s] -- Generating done
+[0.701s] -- Build files have been written to: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_moveit_config
+[0.706s] Invoked command in '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector:/opt/ros/humble /usr/bin/cmake /home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_INSTALL_PREFIX=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config
+[0.708s] Invoking command in '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector:/opt/ros/humble /usr/bin/cmake --build /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_moveit_config -- -j12 -l12
+[0.764s] Built target ament_cmake_python_copy_ur_moveit_config
+[1.024s] running egg_info
+[1.024s] creating ur_moveit_config.egg-info
+[1.024s] writing ur_moveit_config.egg-info/PKG-INFO
+[1.025s] writing dependency_links to ur_moveit_config.egg-info/dependency_links.txt
+[1.025s] writing top-level names to ur_moveit_config.egg-info/top_level.txt
+[1.025s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[1.027s] reading manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[1.028s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[1.056s] Built target ament_cmake_python_build_ur_moveit_config_egg
+[1.067s] Invoked command in '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector:/opt/ros/humble /usr/bin/cmake --build /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_moveit_config -- -j12 -l12
+[1.077s] Invoking command in '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector:/opt/ros/humble /usr/bin/cmake --install /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_moveit_config
+[1.082s] -- Install configuration: ""
+[1.083s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ur_moveit_config/config
+[1.083s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ur_moveit_config/config/controllers.yaml
+[1.083s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ur_moveit_config/config/ur_servo.yaml
+[1.083s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ur_moveit_config/config/ompl_planning.yaml
+[1.083s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ur_moveit_config/config/joint_limits.yaml
+[1.083s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ur_moveit_config/config/kinematics.yaml
+[1.083s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ur_moveit_config/launch
+[1.084s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ur_moveit_config/launch/ur_moveit.launch.py
+[1.084s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ur_moveit_config/rviz
+[1.084s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ur_moveit_config/rviz/view_robot.rviz
+[1.084s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ur_moveit_config/srdf
+[1.084s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ur_moveit_config/srdf/ur_macro.srdf.xacro
+[1.084s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ur_moveit_config/srdf/ur.srdf.xacro
+[1.084s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.sh
+[1.084s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.dsv
+[1.084s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.5.2-py3.10.egg-info
+[1.085s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.5.2-py3.10.egg-info/dependency_links.txt
+[1.085s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.5.2-py3.10.egg-info/SOURCES.txt
+[1.085s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.5.2-py3.10.egg-info/top_level.txt
+[1.085s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.5.2-py3.10.egg-info/PKG-INFO
+[1.085s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config
+[1.085s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/launch_common.py
+[1.085s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/__init__.py
+[1.119s] Listing '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config'...
+[1.119s] Compiling '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/__init__.py'...
+[1.119s] Compiling '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/launch_common.py'...
+[1.124s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py
+[1.161s] Compiling '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py'...
+[1.169s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ament_index/resource_index/package_run_dependencies/ur_moveit_config
+[1.169s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ament_index/resource_index/parent_prefix_path/ur_moveit_config
+[1.169s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.sh
+[1.169s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.dsv
+[1.170s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ur_moveit_config/environment/path.sh
+[1.170s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ur_moveit_config/environment/path.dsv
+[1.170s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.bash
+[1.170s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.sh
+[1.171s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.zsh
+[1.171s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.dsv
+[1.171s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ur_moveit_config/package.dsv
+[1.171s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ament_index/resource_index/packages/ur_moveit_config
+[1.171s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig.cmake
+[1.172s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig-version.cmake
+[1.172s] -- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_moveit_config/share/ur_moveit_config/package.xml
+[1.175s] Invoked command in '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector:/opt/ros/humble /usr/bin/cmake --install /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_moveit_config

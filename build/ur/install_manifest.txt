@@ -1,0 +1,15 @@
+/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur/share/ament_index/resource_index/package_run_dependencies/ur
+/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur/share/ament_index/resource_index/parent_prefix_path/ur
+/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur/share/ur/environment/ament_prefix_path.sh
+/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur/share/ur/environment/ament_prefix_path.dsv
+/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur/share/ur/environment/path.sh
+/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur/share/ur/environment/path.dsv
+/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur/share/ur/local_setup.bash
+/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur/share/ur/local_setup.sh
+/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur/share/ur/local_setup.zsh
+/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur/share/ur/local_setup.dsv
+/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur/share/ur/package.dsv
+/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur/share/ament_index/resource_index/packages/ur
+/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur/share/ur/cmake/urConfig.cmake
+/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur/share/ur/cmake/urConfig-version.cmake
+/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur/share/ur/package.xml

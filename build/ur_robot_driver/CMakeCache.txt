@@ -296,7 +296,7 @@ TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 UR_ROBOT_DRIVER_BUILD_INTEGRATION_TESTS:BOOL=OFF
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/humble/lib/libur_controllers.so
+_lib:FILEPATH=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/lib/libur_controllers.so
 
 //The directory containing a CMake configuration file for action_msgs.
 action_msgs_DIR:PATH=/opt/ros/humble/share/action_msgs/cmake
@@ -620,10 +620,10 @@ unique_identifier_msgs_DIR:PATH=/opt/ros/humble/share/unique_identifier_msgs/cma
 ur_client_library_DIR:PATH=/opt/ros/humble/lib/cmake/ur_client_library
 
 //The directory containing a CMake configuration file for ur_controllers.
-ur_controllers_DIR:PATH=/opt/ros/humble/share/ur_controllers/cmake
+ur_controllers_DIR:PATH=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers/share/ur_controllers/cmake
 
 //The directory containing a CMake configuration file for ur_dashboard_msgs.
-ur_dashboard_msgs_DIR:PATH=/opt/ros/humble/share/ur_dashboard_msgs/cmake
+ur_dashboard_msgs_DIR:PATH=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake
 
 //The directory containing a CMake configuration file for ur_description.
 ur_description_DIR:PATH=/opt/ros/humble/share/ur_description/cmake

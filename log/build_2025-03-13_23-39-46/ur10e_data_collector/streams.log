@@ -1,0 +1,34 @@
+[0.694s] Invoking command in '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/ur10e_data_collector': PYTHONPATH=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur10e_data_collector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ur10e_data_collector build --build-base /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur10e_data_collector/build install --record /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur10e_data_collector/install.log --single-version-externally-managed install_data
+[0.953s] running egg_info
+[0.954s] creating ../../build/ur10e_data_collector/ur10e_data_collector.egg-info
+[0.954s] writing ../../build/ur10e_data_collector/ur10e_data_collector.egg-info/PKG-INFO
+[0.954s] writing dependency_links to ../../build/ur10e_data_collector/ur10e_data_collector.egg-info/dependency_links.txt
+[0.954s] writing entry points to ../../build/ur10e_data_collector/ur10e_data_collector.egg-info/entry_points.txt
+[0.955s] writing requirements to ../../build/ur10e_data_collector/ur10e_data_collector.egg-info/requires.txt
+[0.955s] writing top-level names to ../../build/ur10e_data_collector/ur10e_data_collector.egg-info/top_level.txt
+[0.955s] writing manifest file '../../build/ur10e_data_collector/ur10e_data_collector.egg-info/SOURCES.txt'
+[0.956s] reading manifest file '../../build/ur10e_data_collector/ur10e_data_collector.egg-info/SOURCES.txt'
+[0.957s] writing manifest file '../../build/ur10e_data_collector/ur10e_data_collector.egg-info/SOURCES.txt'
+[0.957s] running build
+[0.957s] running build_py
+[0.958s] creating /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur10e_data_collector/build
+[0.958s] creating /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur10e_data_collector/build/lib
+[0.958s] creating /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur10e_data_collector/build/lib/ur10e_data_collector
+[0.958s] copying ur10e_data_collector/data_collector.py -> /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur10e_data_collector/build/lib/ur10e_data_collector
+[0.958s] copying ur10e_data_collector/__init__.py -> /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur10e_data_collector/build/lib/ur10e_data_collector
+[0.959s] running install
+[0.959s] running install_lib
+[0.960s] creating /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector/lib/python3.10/site-packages/ur10e_data_collector
+[0.960s] copying /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur10e_data_collector/build/lib/ur10e_data_collector/data_collector.py -> /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector/lib/python3.10/site-packages/ur10e_data_collector
+[0.960s] copying /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur10e_data_collector/build/lib/ur10e_data_collector/__init__.py -> /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector/lib/python3.10/site-packages/ur10e_data_collector
+[0.961s] byte-compiling /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector/lib/python3.10/site-packages/ur10e_data_collector/data_collector.py to data_collector.cpython-310.pyc
+[0.961s] byte-compiling /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector/lib/python3.10/site-packages/ur10e_data_collector/__init__.py to __init__.cpython-310.pyc
+[0.961s] running install_data
+[0.961s] creating /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector/share/ur10e_data_collector/launch
+[0.961s] copying launch/ur10e_data_collection.launch.py -> /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector/share/ur10e_data_collector/launch
+[0.962s] running install_egg_info
+[0.963s] Copying ../../build/ur10e_data_collector/ur10e_data_collector.egg-info to /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector/lib/python3.10/site-packages/ur10e_data_collector-0.1.0-py3.10.egg-info
+[0.964s] running install_scripts
+[0.984s] Installing data_collector script to /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector/lib/ur10e_data_collector
+[0.984s] writing list of installed files to '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur10e_data_collector/install.log'
+[1.009s] Invoked command in '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/ur10e_data_collector' returned '0': PYTHONPATH=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur10e_data_collector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ur10e_data_collector build --build-base /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur10e_data_collector/build install --record /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur10e_data_collector/install.log --single-version-externally-managed install_data
