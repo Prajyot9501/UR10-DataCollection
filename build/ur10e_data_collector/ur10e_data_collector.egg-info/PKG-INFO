@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ur10e-data-collector
+Version: 0.1.0
+Summary: A ROS2 package to collect UR10e joint states and publish data
+Home-page: UNKNOWN
+Maintainer: your_name
+Maintainer-email: your_email@example.com
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+

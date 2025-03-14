@@ -1,0 +1,289 @@
+[0.109s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'ur_robot_driver']
+[0.109s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['ur_robot_driver'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b17fd265300>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b17fd264c70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b17fd264c70>>, mixin_verb=('build',))
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.277s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/praj/Desktop/robot_learning/data_collection/data_col_ws'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/Demo) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/Demo) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/Demo) by extension 'ignore_ament_install'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/Demo) by extensions ['colcon_pkg']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/Demo) by extension 'colcon_pkg'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/Demo) by extensions ['colcon_meta']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/Demo) by extension 'colcon_meta'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/Demo) by extensions ['ros']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/Demo) by extension 'ros'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/Demo) by extensions ['cmake', 'python']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/Demo) by extension 'cmake'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/Demo) by extension 'python'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/Demo) by extensions ['python_setup_py']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/Demo) by extension 'python_setup_py'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'ignore_ament_install'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['colcon_pkg']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'colcon_pkg'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['colcon_meta']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'colcon_meta'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['ros']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'ros'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['cmake', 'python']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'cmake'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'python'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['python_setup_py']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'python_setup_py'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'ignore'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'ignore_ament_install'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['colcon_pkg']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'colcon_pkg'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['colcon_meta']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'colcon_meta'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['ros']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'ros'
+[0.293s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur' with type 'ros.ament_cmake' and name 'ur'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ignore_ament_install'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['colcon_pkg']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'colcon_pkg'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['colcon_meta']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'colcon_meta'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['ros']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ros'
+[0.294s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_bringup' with type 'ros.ament_cmake' and name 'ur_bringup'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ignore_ament_install'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['colcon_meta']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'colcon_meta'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['ros']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ros'
+[0.296s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_calibration' with type 'ros.ament_cmake' and name 'ur_calibration'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ros'
+[0.299s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_controllers' with type 'ros.ament_cmake' and name 'ur_controllers'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ros'
+[0.300s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs' with type 'ros.ament_cmake' and name 'ur_dashboard_msgs'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ros'
+[0.302s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_moveit_config' with type 'ros.ament_cmake' and name 'ur_moveit_config'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ros'
+[0.305s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_robot_driver' with type 'ros.ament_cmake' and name 'ur_robot_driver'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_data_collector) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_data_collector) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_data_collector) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_data_collector) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_data_collector) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_data_collector) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_data_collector) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_data_collector) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur10e_data_collector) by extension 'ros'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur10e_data_collector' with type 'ros.ament_python' and name 'ur10e_data_collector'
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.336s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur_dashboard_msgs' in 'src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs'
+[0.336s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur_moveit_config' in 'src/Universal_Robots_ROS2_Driver/ur_moveit_config'
+[0.336s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur_controllers' in 'src/Universal_Robots_ROS2_Driver/ur_controllers'
+[0.336s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur_bringup' in 'src/Universal_Robots_ROS2_Driver/ur_bringup'
+[0.336s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur10e_data_collector' in 'src/ur10e_data_collector'
+[0.336s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur_calibration' in 'src/Universal_Robots_ROS2_Driver/ur_calibration'
+[0.336s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur' in 'src/Universal_Robots_ROS2_Driver/ur'
+[0.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.338s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install
+[0.340s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 331 installed packages in /opt/ros/humble
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.391s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'ur_robot_driver' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding ur_robot_driver
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_target' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.392s] DEBUG:colcon.colcon_core.verb:Building package 'ur_robot_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_robot_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver', 'merge_install': False, 'path': '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver', 'symlink_install': False, 'test_result_base': None}
+[0.392s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.393s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.394s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver' with build type 'ament_cmake'
+[0.394s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver'
+[0.396s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.396s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.396s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.398s] WARNING:colcon.colcon_core.shell:The following packages are in the workspace but haven't been built:
+- ur_dashboard_msgs
+- ur_controllers
+They are being used from the following locations instead:
+- /opt/ros/humble
+- /opt/ros/humble
+To suppress this warning ignore these packages in the workspace:
+--packages-ignore ur_dashboard_msgs ur_controllers
+[0.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector:/opt/ros/humble /usr/bin/cmake /home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DCMAKE_INSTALL_PREFIX=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver
+[2.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector:/opt/ros/humble /usr/bin/cmake /home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DCMAKE_INSTALL_PREFIX=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver
+[2.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector:/opt/ros/humble /usr/bin/cmake --build /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_robot_driver -- -j12 -l12
+[32.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector:/opt/ros/humble /usr/bin/cmake --build /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_robot_driver -- -j12 -l12
+[32.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector:/opt/ros/humble /usr/bin/cmake --install /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_robot_driver
+[32.716s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_robot_driver)
+[32.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector:/opt/ros/humble /usr/bin/cmake --install /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_robot_driver
+[32.719s] Level 1:colcon.colcon_core.environment:checking '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver' for CMake module files
+[32.720s] Level 1:colcon.colcon_core.environment:checking '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver' for CMake config files
+[32.720s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'cmake_prefix_path')
+[32.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.ps1'
+[32.721s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.dsv'
+[32.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.sh'
+[32.722s] Level 1:colcon.colcon_core.environment:checking '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib'
+[32.723s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'ld_library_path_lib')
+[32.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.ps1'
+[32.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.dsv'
+[32.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.sh'
+[32.724s] Level 1:colcon.colcon_core.environment:checking '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/bin'
+[32.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'path')
+[32.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/hook/path.ps1'
+[32.725s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/hook/path.dsv'
+[32.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/hook/path.sh'
+[32.725s] Level 1:colcon.colcon_core.environment:checking '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib/pkgconfig/ur_robot_driver.pc'
+[32.725s] Level 1:colcon.colcon_core.environment:checking '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib/python3.10/site-packages'
+[32.726s] Level 1:colcon.colcon_core.environment:checking '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/bin'
+[32.726s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'pythonscriptspath')
+[32.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.ps1'
+[32.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.dsv'
+[32.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.sh'
+[32.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/package.ps1'
+[32.728s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/package.dsv'
+[32.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/package.sh'
+[32.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/package.bash'
+[32.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/package.zsh'
+[32.731s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/colcon-core/packages/ur_robot_driver)
+[32.732s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_robot_driver)
+[32.732s] Level 1:colcon.colcon_core.environment:checking '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver' for CMake module files
+[32.733s] Level 1:colcon.colcon_core.environment:checking '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver' for CMake config files
+[32.733s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'cmake_prefix_path')
+[32.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.ps1'
+[32.734s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.dsv'
+[32.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.sh'
+[32.734s] Level 1:colcon.colcon_core.environment:checking '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib'
+[32.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'ld_library_path_lib')
+[32.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.ps1'
+[32.735s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.dsv'
+[32.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.sh'
+[32.736s] Level 1:colcon.colcon_core.environment:checking '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/bin'
+[32.736s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'path')
+[32.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/hook/path.ps1'
+[32.736s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/hook/path.dsv'
+[32.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/hook/path.sh'
+[32.737s] Level 1:colcon.colcon_core.environment:checking '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib/pkgconfig/ur_robot_driver.pc'
+[32.737s] Level 1:colcon.colcon_core.environment:checking '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib/python3.10/site-packages'
+[32.738s] Level 1:colcon.colcon_core.environment:checking '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/bin'
+[32.738s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'pythonscriptspath')
+[32.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.ps1'
+[32.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.dsv'
+[32.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.sh'
+[32.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/package.ps1'
+[32.740s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/package.dsv'
+[32.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/package.sh'
+[32.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/package.bash'
+[32.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/package.zsh'
+[32.742s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/colcon-core/packages/ur_robot_driver)
+[32.742s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[32.743s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[32.743s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[32.743s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[32.747s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[32.747s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[32.748s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[32.767s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[32.767s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/local_setup.ps1'
+[32.769s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/_local_setup_util_ps1.py'
+[32.770s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/setup.ps1'
+[32.771s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/local_setup.sh'
+[32.772s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/_local_setup_util_sh.py'
+[32.772s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/setup.sh'
+[32.773s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/local_setup.bash'
+[32.774s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/setup.bash'
+[32.775s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/local_setup.zsh'
+[32.776s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/setup.zsh'

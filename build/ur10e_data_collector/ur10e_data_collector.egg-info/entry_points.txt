@@ -1,0 +1,3 @@
+[console_scripts]
+data_collector = ur10e_data_collector.data_collector:main
+

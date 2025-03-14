@@ -1,0 +1,502 @@
+[0.000000] (-) TimerEvent: {}
+[0.000266] (-) JobUnselected: {'identifier': 'ur'}
+[0.000302] (-) JobUnselected: {'identifier': 'ur10e_data_collector'}
+[0.000326] (-) JobUnselected: {'identifier': 'ur_bringup'}
+[0.000349] (-) JobUnselected: {'identifier': 'ur_calibration'}
+[0.000371] (-) JobUnselected: {'identifier': 'ur_controllers'}
+[0.000393] (-) JobUnselected: {'identifier': 'ur_dashboard_msgs'}
+[0.000414] (-) JobUnselected: {'identifier': 'ur_moveit_config'}
+[0.000438] (ur_robot_driver) JobQueued: {'identifier': 'ur_robot_driver', 'dependencies': OrderedDict([('ur_dashboard_msgs', '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_dashboard_msgs'), ('ur_controllers', '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_controllers')])}
+[0.001238] (ur_robot_driver) JobStarted: {'identifier': 'ur_robot_driver'}
+[0.009123] (ur_robot_driver) JobProgress: {'identifier': 'ur_robot_driver', 'progress': 'cmake'}
+[0.009729] (ur_robot_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver', '-DCMAKE_INSTALL_PREFIX=/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver'], 'cwd': '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_robot_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'praj'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/praj'), ('OLDPWD', '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1740'), ('SYSTEMD_EXEC_PID', '1900'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5816'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'praj'), ('JOURNAL_STREAM', '8:6877'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'praj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Praj:@/tmp/.ICE-unix/1862,unix/Praj:/tmp/.ICE-unix/1862'), ('INVOCATION_ID', '44d7d2561f9e47e3a3317ac49ee19e14'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F03U22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:63254395-9647-40cd-bf61-cdc2690fc604'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_robot_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector:/opt/ros/humble')]), 'shell': False}
+[0.101515] (-) TimerEvent: {}
+[0.112612] (ur_robot_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.198434] (ur_robot_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.201763] (-) TimerEvent: {}
+[0.208887] (ur_robot_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.272619] (ur_robot_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.282195] (ur_robot_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.282658] (ur_robot_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.283405] (ur_robot_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.286936] (ur_robot_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.307160] (-) TimerEvent: {}
+[0.356510] (ur_robot_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.366616] (ur_robot_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.366910] (ur_robot_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.367434] (ur_robot_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.368082] (ur_robot_driver) StderrLine: {'line': b"\x1b[0mur_robot_driver: You did not request a specific build type: selecting 'RelWithDebInfo'.\x1b[0m\n"}
+[0.371291] (ur_robot_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.407398] (-) TimerEvent: {}
+[0.507836] (-) TimerEvent: {}
+[0.508177] (ur_robot_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.613784] (ur_robot_driver) StdoutLine: {'line': b'-- Found controller_manager: 2.48.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[0.613974] (-) TimerEvent: {}
+[0.671711] (ur_robot_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.678303] (ur_robot_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.689775] (ur_robot_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.707163] (ur_robot_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.714240] (-) TimerEvent: {}
+[0.730971] (ur_robot_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.835204] (-) TimerEvent: {}
+[0.938148] (-) TimerEvent: {}
+[1.020625] (ur_robot_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.024177] (ur_robot_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.042638] (-) TimerEvent: {}
+[1.060083] (ur_robot_driver) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.113571] (ur_robot_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.117950] (ur_robot_driver) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.133452] (ur_robot_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.137484] (ur_robot_driver) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.142674] (-) TimerEvent: {}
+[1.145894] (ur_robot_driver) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.156044] (ur_robot_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.170232] (ur_robot_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.243047] (-) TimerEvent: {}
+[1.269784] (ur_robot_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.269986] (ur_robot_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.343443] (-) TimerEvent: {}
+[1.364192] (ur_robot_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.365294] (ur_robot_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.443529] (-) TimerEvent: {}
+[1.502034] (ur_robot_driver) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[1.504106] (ur_robot_driver) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.518883] (ur_robot_driver) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.535285] (ur_robot_driver) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.537017] (ur_robot_driver) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.537215] (ur_robot_driver) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.543812] (-) TimerEvent: {}
+[1.636991] (ur_robot_driver) StdoutLine: {'line': b'-- Found ur_dashboard_msgs: 2.5.2 (/opt/ros/humble/share/ur_dashboard_msgs/cmake)\n'}
+[1.644281] (-) TimerEvent: {}
+[1.661601] (ur_robot_driver) StdoutLine: {'line': b'-- Found ur_msgs: 2.1.0 (/opt/ros/humble/share/ur_msgs/cmake)\n'}
+[1.751813] (-) TimerEvent: {}
+[1.852298] (-) TimerEvent: {}
+[1.952685] (-) TimerEvent: {}
+[1.964102] (ur_robot_driver) StdoutLine: {'line': b'-- Found ur_controllers: 2.5.2 (/opt/ros/humble/share/ur_controllers/cmake)\n'}
+[2.054020] (-) TimerEvent: {}
+[2.101670] (ur_robot_driver) StdoutLine: {'line': b'-- Found ur_description: 2.1.10 (/opt/ros/humble/share/ur_description/cmake)\n'}
+[2.104025] (ur_robot_driver) StdoutLine: {'line': b'-- Found launch_testing_ament_cmake: 1.0.7 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)\n'}
+[2.106299] (ur_robot_driver) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.126312] (ur_robot_driver) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.133820] (ur_robot_driver) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.134057] (ur_robot_driver) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.134178] (ur_robot_driver) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.134274] (ur_robot_driver) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.152311] (ur_robot_driver) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.153070] (ur_robot_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.154238] (-) TimerEvent: {}
+[2.254651] (-) TimerEvent: {}
+[2.350571] (ur_robot_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[2.354692] (-) TimerEvent: {}
+[2.379867] (ur_robot_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_robot_driver\n'}
+[2.390625] (ur_robot_driver) CommandEnded: {'returncode': 0}
+[2.391233] (ur_robot_driver) JobProgress: {'identifier': 'ur_robot_driver', 'progress': 'build'}
+[2.392391] (ur_robot_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_robot_driver', '--', '-j12', '-l12'], 'cwd': '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_robot_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'praj'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/praj'), ('OLDPWD', '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1740'), ('SYSTEMD_EXEC_PID', '1900'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5816'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'praj'), ('JOURNAL_STREAM', '8:6877'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'praj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Praj:@/tmp/.ICE-unix/1862,unix/Praj:/tmp/.ICE-unix/1862'), ('INVOCATION_ID', '44d7d2561f9e47e3a3317ac49ee19e14'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F03U22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:63254395-9647-40cd-bf61-cdc2690fc604'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_robot_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector:/opt/ros/humble')]), 'shell': False}
+[2.443560] (ur_robot_driver) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_ros.cpp.o\x1b[0m\n'}
+[2.443853] (ur_robot_driver) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o\x1b[0m\n'}
+[2.444016] (ur_robot_driver) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/dashboard_client_ros.cpp.o\x1b[0m\n'}
+[2.444157] (ur_robot_driver) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o\x1b[0m\n'}
+[2.444345] (ur_robot_driver) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/urcl_log_handler.cpp.o\x1b[0m\n'}
+[2.444460] (ur_robot_driver) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/robot_state_helper.dir/src/robot_state_helper.cpp.o\x1b[0m\n'}
+[2.444645] (ur_robot_driver) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/robot_state_helper.dir/src/robot_state_helper_node.cpp.o\x1b[0m\n'}
+[2.445337] (ur_robot_driver) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/urscript_interface.dir/src/urscript_interface.cpp.o\x1b[0m\n'}
+[2.445549] (ur_robot_driver) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/ur_ros2_control_node.dir/src/ur_ros2_control_node.cpp.o\x1b[0m\n'}
+[2.447134] (ur_robot_driver) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o\x1b[0m\n'}
+[2.447312] (ur_robot_driver) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/robot_state_helper.cpp.o\x1b[0m\n'}
+[2.454839] (-) TimerEvent: {}
+[2.455637] (ur_robot_driver) StdoutLine: {'line': b'[ 57%] Built target ament_cmake_python_copy_ur_robot_driver\n'}
+[2.464734] (ur_robot_driver) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_node.cpp.o\x1b[0m\n'}
+[2.555391] (-) TimerEvent: {}
+[2.657856] (-) TimerEvent: {}
+[2.758634] (-) TimerEvent: {}
+[2.858934] (-) TimerEvent: {}
+[2.959763] (-) TimerEvent: {}
+[3.060740] (-) TimerEvent: {}
+[3.165400] (-) TimerEvent: {}
+[3.267011] (-) TimerEvent: {}
+[3.368175] (-) TimerEvent: {}
+[3.469438] (-) TimerEvent: {}
+[3.570363] (-) TimerEvent: {}
+[3.671393] (-) TimerEvent: {}
+[3.772360] (-) TimerEvent: {}
+[3.872735] (-) TimerEvent: {}
+[3.975242] (-) TimerEvent: {}
+[4.041469] (ur_robot_driver) StdoutLine: {'line': b'running egg_info\n'}
+[4.042808] (ur_robot_driver) StdoutLine: {'line': b'creating ur_robot_driver.egg-info\n'}
+[4.043963] (ur_robot_driver) StdoutLine: {'line': b'writing ur_robot_driver.egg-info/PKG-INFO\n'}
+[4.045067] (ur_robot_driver) StdoutLine: {'line': b'writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt\n'}
+[4.047875] (ur_robot_driver) StdoutLine: {'line': b'writing top-level names to ur_robot_driver.egg-info/top_level.txt\n'}
+[4.049043] (ur_robot_driver) StdoutLine: {'line': b"writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'\n"}
+[4.050130] (ur_robot_driver) StdoutLine: {'line': b"reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'\n"}
+[4.050483] (ur_robot_driver) StdoutLine: {'line': b"writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'\n"}
+[4.076013] (-) TimerEvent: {}
+[4.094722] (ur_robot_driver) StdoutLine: {'line': b'[ 63%] Built target ament_cmake_python_build_ur_robot_driver_egg\n'}
+[4.108135] (ur_robot_driver) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/urcl_log_handler.cpp.o\x1b[0m\n'}
+[4.176534] (-) TimerEvent: {}
+[4.277481] (-) TimerEvent: {}
+[4.378174] (-) TimerEvent: {}
+[4.479275] (-) TimerEvent: {}
+[4.579871] (-) TimerEvent: {}
+[4.681026] (-) TimerEvent: {}
+[4.783136] (-) TimerEvent: {}
+[4.883898] (-) TimerEvent: {}
+[4.987812] (-) TimerEvent: {}
+[5.088953] (-) TimerEvent: {}
+[5.189905] (-) TimerEvent: {}
+[5.290755] (-) TimerEvent: {}
+[5.391361] (-) TimerEvent: {}
+[5.492423] (-) TimerEvent: {}
+[5.593294] (-) TimerEvent: {}
+[5.701763] (-) TimerEvent: {}
+[5.802672] (-) TimerEvent: {}
+[5.903417] (-) TimerEvent: {}
+[6.006583] (-) TimerEvent: {}
+[6.107943] (-) TimerEvent: {}
+[6.208689] (-) TimerEvent: {}
+[6.309441] (-) TimerEvent: {}
+[6.410475] (-) TimerEvent: {}
+[6.511536] (-) TimerEvent: {}
+[6.614175] (-) TimerEvent: {}
+[6.728727] (-) TimerEvent: {}
+[6.843529] (-) TimerEvent: {}
+[6.946505] (-) TimerEvent: {}
+[7.046946] (-) TimerEvent: {}
+[7.147373] (-) TimerEvent: {}
+[7.250452] (-) TimerEvent: {}
+[7.351612] (-) TimerEvent: {}
+[7.452776] (-) TimerEvent: {}
+[7.553565] (-) TimerEvent: {}
+[7.654575] (-) TimerEvent: {}
+[7.758876] (-) TimerEvent: {}
+[7.862907] (-) TimerEvent: {}
+[7.963790] (-) TimerEvent: {}
+[8.064638] (-) TimerEvent: {}
+[8.165760] (-) TimerEvent: {}
+[8.266710] (-) TimerEvent: {}
+[8.367790] (-) TimerEvent: {}
+[8.468862] (-) TimerEvent: {}
+[8.569609] (-) TimerEvent: {}
+[8.670861] (-) TimerEvent: {}
+[8.773585] (-) TimerEvent: {}
+[8.885743] (-) TimerEvent: {}
+[8.990012] (-) TimerEvent: {}
+[9.104222] (-) TimerEvent: {}
+[9.218615] (-) TimerEvent: {}
+[9.327905] (-) TimerEvent: {}
+[9.435752] (-) TimerEvent: {}
+[9.536885] (-) TimerEvent: {}
+[9.637638] (-) TimerEvent: {}
+[9.738434] (-) TimerEvent: {}
+[9.742402] (ur_robot_driver) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX executable ur_ros2_control_node\x1b[0m\n'}
+[9.838855] (-) TimerEvent: {}
+[9.939926] (-) TimerEvent: {}
+[10.041291] (-) TimerEvent: {}
+[10.049033] (ur_robot_driver) StdoutLine: {'line': b'[ 73%] Built target ur_ros2_control_node\n'}
+[10.144970] (-) TimerEvent: {}
+[10.246702] (-) TimerEvent: {}
+[10.347427] (-) TimerEvent: {}
+[10.462763] (-) TimerEvent: {}
+[10.563780] (-) TimerEvent: {}
+[10.678838] (-) TimerEvent: {}
+[10.792155] (-) TimerEvent: {}
+[10.904005] (-) TimerEvent: {}
+[11.013060] (-) TimerEvent: {}
+[11.127275] (-) TimerEvent: {}
+[11.228463] (-) TimerEvent: {}
+[11.344288] (-) TimerEvent: {}
+[11.445273] (-) TimerEvent: {}
+[11.548891] (-) TimerEvent: {}
+[11.652761] (-) TimerEvent: {}
+[11.761483] (-) TimerEvent: {}
+[11.876879] (-) TimerEvent: {}
+[11.978950] (-) TimerEvent: {}
+[12.081565] (-) TimerEvent: {}
+[12.192632] (-) TimerEvent: {}
+[12.310583] (-) TimerEvent: {}
+[12.418920] (-) TimerEvent: {}
+[12.532720] (-) TimerEvent: {}
+[12.644203] (-) TimerEvent: {}
+[12.750704] (-) TimerEvent: {}
+[12.851826] (-) TimerEvent: {}
+[12.969775] (-) TimerEvent: {}
+[13.087703] (-) TimerEvent: {}
+[13.197389] (-) TimerEvent: {}
+[13.301629] (-) TimerEvent: {}
+[13.402179] (-) TimerEvent: {}
+[13.503856] (-) TimerEvent: {}
+[13.608834] (-) TimerEvent: {}
+[13.714150] (-) TimerEvent: {}
+[13.831577] (-) TimerEvent: {}
+[13.932213] (-) TimerEvent: {}
+[14.043785] (-) TimerEvent: {}
+[14.155629] (-) TimerEvent: {}
+[14.256315] (-) TimerEvent: {}
+[14.369831] (-) TimerEvent: {}
+[14.479970] (-) TimerEvent: {}
+[14.581368] (-) TimerEvent: {}
+[14.690302] (-) TimerEvent: {}
+[14.809259] (-) TimerEvent: {}
+[14.909563] (-) TimerEvent: {}
+[15.010227] (-) TimerEvent: {}
+[15.110808] (-) TimerEvent: {}
+[15.220258] (-) TimerEvent: {}
+[15.331720] (-) TimerEvent: {}
+[15.432596] (-) TimerEvent: {}
+[15.533318] (-) TimerEvent: {}
+[15.641549] (-) TimerEvent: {}
+[15.755023] (-) TimerEvent: {}
+[15.864360] (-) TimerEvent: {}
+[15.973998] (-) TimerEvent: {}
+[16.084672] (-) TimerEvent: {}
+[16.197464] (-) TimerEvent: {}
+[16.311380] (-) TimerEvent: {}
+[16.420414] (-) TimerEvent: {}
+[16.529147] (-) TimerEvent: {}
+[16.630053] (-) TimerEvent: {}
+[16.731863] (-) TimerEvent: {}
+[16.833532] (-) TimerEvent: {}
+[16.936099] (-) TimerEvent: {}
+[17.049848] (-) TimerEvent: {}
+[17.150483] (-) TimerEvent: {}
+[17.254222] (-) TimerEvent: {}
+[17.367714] (-) TimerEvent: {}
+[17.473228] (-) TimerEvent: {}
+[17.584858] (-) TimerEvent: {}
+[17.691682] (-) TimerEvent: {}
+[17.792229] (-) TimerEvent: {}
+[17.911617] (-) TimerEvent: {}
+[18.029552] (-) TimerEvent: {}
+[18.134870] (-) TimerEvent: {}
+[18.235293] (-) TimerEvent: {}
+[18.335806] (-) TimerEvent: {}
+[18.443022] (-) TimerEvent: {}
+[18.552692] (-) TimerEvent: {}
+[18.669798] (-) TimerEvent: {}
+[18.784909] (-) TimerEvent: {}
+[18.893123] (-) TimerEvent: {}
+[18.995800] (-) TimerEvent: {}
+[19.096156] (-) TimerEvent: {}
+[19.102642] (ur_robot_driver) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable urscript_interface\x1b[0m\n'}
+[19.196644] (-) TimerEvent: {}
+[19.297685] (-) TimerEvent: {}
+[19.412884] (-) TimerEvent: {}
+[19.513895] (-) TimerEvent: {}
+[19.542399] (ur_robot_driver) StdoutLine: {'line': b'[ 78%] Built target urscript_interface\n'}
+[19.623996] (-) TimerEvent: {}
+[19.734263] (-) TimerEvent: {}
+[19.848698] (-) TimerEvent: {}
+[19.949407] (-) TimerEvent: {}
+[20.049983] (-) TimerEvent: {}
+[20.159897] (-) TimerEvent: {}
+[20.262655] (-) TimerEvent: {}
+[20.376009] (-) TimerEvent: {}
+[20.477048] (-) TimerEvent: {}
+[20.592463] (-) TimerEvent: {}
+[20.704894] (-) TimerEvent: {}
+[20.807583] (-) TimerEvent: {}
+[20.917014] (-) TimerEvent: {}
+[21.027862] (-) TimerEvent: {}
+[21.129028] (-) TimerEvent: {}
+[21.238358] (-) TimerEvent: {}
+[21.349409] (-) TimerEvent: {}
+[21.466837] (-) TimerEvent: {}
+[21.576173] (-) TimerEvent: {}
+[21.689166] (-) TimerEvent: {}
+[21.791684] (-) TimerEvent: {}
+[21.892994] (-) TimerEvent: {}
+[21.993909] (-) TimerEvent: {}
+[22.103812] (-) TimerEvent: {}
+[22.204134] (-) TimerEvent: {}
+[22.304403] (-) TimerEvent: {}
+[22.360366] (ur_robot_driver) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX executable controller_stopper_node\x1b[0m\n'}
+[22.404625] (-) TimerEvent: {}
+[22.504944] (-) TimerEvent: {}
+[22.609510] (-) TimerEvent: {}
+[22.713681] (-) TimerEvent: {}
+[22.828365] (ur_robot_driver) StdoutLine: {'line': b'[ 84%] Built target controller_stopper_node\n'}
+[22.828613] (-) TimerEvent: {}
+[22.946177] (-) TimerEvent: {}
+[23.058806] (-) TimerEvent: {}
+[23.174493] (-) TimerEvent: {}
+[23.291574] (-) TimerEvent: {}
+[23.409343] (-) TimerEvent: {}
+[23.524091] (-) TimerEvent: {}
+[23.639250] (-) TimerEvent: {}
+[23.751806] (-) TimerEvent: {}
+[23.865439] (-) TimerEvent: {}
+[23.982029] (-) TimerEvent: {}
+[24.083923] (-) TimerEvent: {}
+[24.192410] (-) TimerEvent: {}
+[24.306713] (-) TimerEvent: {}
+[24.420519] (-) TimerEvent: {}
+[24.526692] (-) TimerEvent: {}
+[24.639987] (-) TimerEvent: {}
+[24.754173] (-) TimerEvent: {}
+[24.868510] (-) TimerEvent: {}
+[24.978568] (-) TimerEvent: {}
+[25.078291] (ur_robot_driver) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX executable dashboard_client\x1b[0m\n'}
+[25.078831] (-) TimerEvent: {}
+[25.199262] (-) TimerEvent: {}
+[25.303730] (-) TimerEvent: {}
+[25.444854] (-) TimerEvent: {}
+[25.481241] (ur_robot_driver) StdoutLine: {'line': b'[ 89%] Built target dashboard_client\n'}
+[25.559034] (-) TimerEvent: {}
+[25.660693] (-) TimerEvent: {}
+[25.768494] (-) TimerEvent: {}
+[25.896573] (-) TimerEvent: {}
+[25.997380] (-) TimerEvent: {}
+[26.120028] (-) TimerEvent: {}
+[26.225201] (-) TimerEvent: {}
+[26.346746] (-) TimerEvent: {}
+[26.472971] (-) TimerEvent: {}
+[26.600960] (-) TimerEvent: {}
+[26.849439] (-) TimerEvent: {}
+[27.090358] (-) TimerEvent: {}
+[27.286212] (-) TimerEvent: {}
+[27.388480] (-) TimerEvent: {}
+[27.613692] (-) TimerEvent: {}
+[27.733794] (-) TimerEvent: {}
+[27.834639] (-) TimerEvent: {}
+[27.934885] (-) TimerEvent: {}
+[28.045570] (-) TimerEvent: {}
+[28.249119] (-) TimerEvent: {}
+[28.349703] (-) TimerEvent: {}
+[28.450396] (-) TimerEvent: {}
+[28.550804] (-) TimerEvent: {}
+[28.651127] (-) TimerEvent: {}
+[28.880424] (-) TimerEvent: {}
+[29.255226] (-) TimerEvent: {}
+[29.544670] (-) TimerEvent: {}
+[29.645776] (-) TimerEvent: {}
+[29.749454] (-) TimerEvent: {}
+[29.909562] (-) TimerEvent: {}
+[30.010056] (-) TimerEvent: {}
+[30.146413] (-) TimerEvent: {}
+[30.273565] (-) TimerEvent: {}
+[30.374224] (-) TimerEvent: {}
+[30.480589] (-) TimerEvent: {}
+[30.656760] (-) TimerEvent: {}
+[30.866224] (-) TimerEvent: {}
+[31.004538] (-) TimerEvent: {}
+[31.131597] (-) TimerEvent: {}
+[31.150074] (ur_robot_driver) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable robot_state_helper\x1b[0m\n'}
+[31.271204] (-) TimerEvent: {}
+[31.352355] (ur_robot_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libur_robot_driver_plugin.so\x1b[0m\n'}
+[31.371622] (-) TimerEvent: {}
+[31.517565] (-) TimerEvent: {}
+[31.650385] (-) TimerEvent: {}
+[31.692230] (ur_robot_driver) StdoutLine: {'line': b'[100%] Built target robot_state_helper\n'}
+[31.753743] (-) TimerEvent: {}
+[31.893128] (-) TimerEvent: {}
+[32.018713] (-) TimerEvent: {}
+[32.119057] (-) TimerEvent: {}
+[32.125211] (ur_robot_driver) StdoutLine: {'line': b'[100%] Built target ur_robot_driver_plugin\n'}
+[32.134850] (ur_robot_driver) CommandEnded: {'returncode': 0}
+[32.135806] (ur_robot_driver) JobProgress: {'identifier': 'ur_robot_driver', 'progress': 'install'}
+[32.143123] (ur_robot_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_robot_driver'], 'cwd': '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_robot_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'praj'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/praj'), ('OLDPWD', '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1740'), ('SYSTEMD_EXEC_PID', '1900'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5816'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'praj'), ('JOURNAL_STREAM', '8:6877'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'praj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Praj:@/tmp/.ICE-unix/1862,unix/Praj:/tmp/.ICE-unix/1862'), ('INVOCATION_ID', '44d7d2561f9e47e3a3317ac49ee19e14'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F03U22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:63254395-9647-40cd-bf61-cdc2690fc604'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/build/ur_robot_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur10e_data_collector:/opt/ros/humble')]), 'shell': False}
+[32.149326] (ur_robot_driver) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[32.149638] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/hardware_interface_plugin.xml\n'}
+[32.149922] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client\n'}
+[32.164403] (ur_robot_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client" to ""\n'}
+[32.164721] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib/ur_robot_driver/ur_ros2_control_node\n'}
+[32.165731] (ur_robot_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib/ur_robot_driver/ur_ros2_control_node" to ""\n'}
+[32.165847] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node\n'}
+[32.178882] (ur_robot_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node" to ""\n'}
+[32.179033] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface\n'}
+[32.188474] (ur_robot_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface" to ""\n'}
+[32.188685] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib/ur_robot_driver/robot_state_helper\n'}
+[32.212023] (ur_robot_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib/ur_robot_driver/robot_state_helper" to ""\n'}
+[32.212148] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib/libur_robot_driver_plugin.so\n'}
+[32.227152] (-) TimerEvent: {}
+[32.276647] (ur_robot_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib/libur_robot_driver_plugin.so" to ""\n'}
+[32.276895] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/include\n'}
+[32.277017] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/include/ur_robot_driver\n'}
+[32.277169] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp\n'}
+[32.277291] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/include/ur_robot_driver/robot_state_helper.hpp\n'}
+[32.277368] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp\n'}
+[32.277446] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp\n'}
+[32.277591] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp\n'}
+[32.277669] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.sh\n'}
+[32.277823] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.dsv\n'}
+[32.277913] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/resources\n'}
+[32.278030] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/resources/externalcontrol-1.0.5.urcap\n'}
+[32.278177] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/resources/ros_control.urscript\n'}
+[32.278254] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_input_recipe.txt\n'}
+[32.278327] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rs485-1.0.urcap\n'}
+[32.278452] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_output_recipe.txt\n'}
+[32.278633] (ur_robot_driver) StdoutLine: {'line': b'-- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/include\n'}
+[32.278781] (ur_robot_driver) StdoutLine: {'line': b'-- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/include/ur_robot_driver\n'}
+[32.278870] (ur_robot_driver) StdoutLine: {'line': b'-- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp\n'}
+[32.278952] (ur_robot_driver) StdoutLine: {'line': b'-- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/include/ur_robot_driver/robot_state_helper.hpp\n'}
+[32.279036] (ur_robot_driver) StdoutLine: {'line': b'-- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp\n'}
+[32.279149] (ur_robot_driver) StdoutLine: {'line': b'-- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp\n'}
+[32.279233] (ur_robot_driver) StdoutLine: {'line': b'-- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp\n'}
+[32.279370] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.sh\n'}
+[32.279449] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.dsv\n'}
+[32.279511] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.5.2-py3.10.egg-info\n'}
+[32.279567] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.5.2-py3.10.egg-info/dependency_links.txt\n'}
+[32.279689] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.5.2-py3.10.egg-info/SOURCES.txt\n'}
+[32.279861] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.5.2-py3.10.egg-info/top_level.txt\n'}
+[32.280004] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.5.2-py3.10.egg-info/PKG-INFO\n'}
+[32.280173] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver\n'}
+[32.280308] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver/__init__.py\n'}
+[32.310008] (ur_robot_driver) StdoutLine: {'line': b"Listing '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver'...\n"}
+[32.310166] (ur_robot_driver) StdoutLine: {'line': b"Compiling '/home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver/__init__.py'...\n"}
+[32.313892] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib/ur_robot_driver/tool_communication.py\n'}
+[32.314079] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib/ur_robot_driver/example_move.py\n'}
+[32.314243] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh\n'}
+[32.314400] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib/ur_robot_driver/examples.py\n'}
+[32.314533] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib/ur_robot_driver/force_mode.py\n'}
+[32.314721] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/bin/wait_dashboard_server.sh\n'}
+[32.314857] (ur_robot_driver) StdoutLine: {'line': b'-- Up-to-date: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh\n'}
+[32.314942] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/config\n'}
+[32.315067] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur5e_update_rate.yaml\n'}
+[32.315151] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/config/test_goal_publishers_config.yaml\n'}
+[32.315277] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur3e_update_rate.yaml\n'}
+[32.315389] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur10e_update_rate.yaml\n'}
+[32.315470] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur5_update_rate.yaml\n'}
+[32.315614] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/config/test_velocity_goal_publishers_config.yaml\n'}
+[32.315745] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur_controllers.yaml\n'}
+[32.315859] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur10_update_rate.yaml\n'}
+[32.315976] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur16e_update_rate.yaml\n'}
+[32.316061] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur3_update_rate.yaml\n'}
+[32.316191] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur30_update_rate.yaml\n'}
+[32.316337] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur20_update_rate.yaml\n'}
+[32.316420] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/launch\n'}
+[32.316502] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur5e.launch.py\n'}
+[32.316654] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur3.launch.py\n'}
+[32.316797] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur10.launch.py\n'}
+[32.316916] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_scaled_joint_trajectory_controller.launch.py\n'}
+[32.316995] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur5.launch.py\n'}
+[32.317109] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur20.launch.py\n'}
+[32.317199] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur30.launch.py\n'}
+[32.317317] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur16e.launch.py\n'}
+[32.317442] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur_dashboard_client.launch.py\n'}
+[32.317506] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_forward_velocity_controller.launch.py\n'}
+[32.317667] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur_control.launch.py\n'}
+[32.317829] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur10e.launch.py\n'}
+[32.317920] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur3e.launch.py\n'}
+[32.318020] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_joint_trajectory_controller.launch.py\n'}
+[32.318226] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ament_index/resource_index/package_run_dependencies/ur_robot_driver\n'}
+[32.318436] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ament_index/resource_index/parent_prefix_path/ur_robot_driver\n'}
+[32.318672] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.sh\n'}
+[32.318806] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.dsv\n'}
+[32.318949] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/environment/path.sh\n'}
+[32.319082] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/environment/path.dsv\n'}
+[32.319211] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.bash\n'}
+[32.319400] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.sh\n'}
+[32.319591] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.zsh\n'}
+[32.319872] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.dsv\n'}
+[32.320059] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/package.dsv\n'}
+[32.320319] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ament_index/resource_index/packages/ur_robot_driver\n'}
+[32.320604] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ur_robot_driver\n'}
+[32.320835] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[32.320986] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[32.321116] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[32.321260] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig.cmake\n'}
+[32.321414] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig-version.cmake\n'}
+[32.321685] (ur_robot_driver) StdoutLine: {'line': b'-- Installing: /home/praj/Desktop/robot_learning/data_collection/data_col_ws/install/ur_robot_driver/share/ur_robot_driver/package.xml\n'}
+[32.324119] (ur_robot_driver) CommandEnded: {'returncode': 0}
+[32.327791] (-) TimerEvent: {}
+[32.349688] (ur_robot_driver) JobEnded: {'identifier': 'ur_robot_driver', 'rc': 0}
+[32.350187] (-) EventReactorShutdown: {}
